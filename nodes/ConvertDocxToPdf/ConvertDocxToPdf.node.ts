@@ -11,7 +11,7 @@ export class ConvertDocxToPdf implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'DOCX to PDF',
 		name: 'convertDocxToPdf',
-		icon: { light: 'file:../../icons/icon.svg', dark: 'file:../../icons/icon.svg' },
+		icon: { light: 'file:../../icons/light.svg', dark: 'file:../../icons/dark.svg' },
 		group: ['transform'],
 		version: 1,
 		description: 'Convert Word, Excel, PowerPoint, and other office documents to PDF using PDF API Hub',
